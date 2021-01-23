@@ -24,7 +24,7 @@ import com.java.servise.mvcServise;
 public class mvcController {
 	@Autowired
 	 mvcServise mvcser;
-   
+  //Student detail controller 
 	@RequestMapping("/loginpage")
 	public String openloginpage() {
 		
@@ -164,7 +164,7 @@ public class mvcController {
 		return mv;
 	}
 	
-	
+	// project details controller
 	@RequestMapping("/project")
 	public  ModelAndView openproject(){
 		System.out.println("2222222");
